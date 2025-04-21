@@ -4,7 +4,12 @@
       hash-priority="low"
       :transformers="[legacyLogicalPropertiesTransformer]"
     >
-      <a-spin :spinning="systemStore.spinning" tip="加载中" size="large" class="!max-h-screen">
+      <a-spin
+        :spinning="systemStore.spinning"
+        tip="加载中"
+        size="large"
+        class="!max-h-screen"
+      >
         <router-view />
       </a-spin>
     </a-style-provider>

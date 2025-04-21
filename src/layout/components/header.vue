@@ -1,7 +1,10 @@
 <template>
   <div class="flex h-full w-full items-center justify-between">
     <div class="flex items-center gap-2">
-      <a-button type="text" @click="sidebarStore.setCollapse(!sidebarStore.collapse)">
+      <a-button
+        type="text"
+        @click="sidebarStore.setCollapse(!sidebarStore.collapse)"
+      >
         <MenuOutlined />
       </a-button>
     </div>

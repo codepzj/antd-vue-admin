@@ -54,7 +54,7 @@ export const routes: RouteRecordRaw[] = [
     component: Login,
     name: "Login",
   },
-  
+
   {
     path: "/error",
     redirect: { name: "404" },

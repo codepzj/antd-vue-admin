@@ -16,7 +16,9 @@ import { useSidebarStore } from "@/store/sidebar";
 import sidebar from "./sidebar.vue";
 
 const sidebarStore = useSidebarStore();
-const visible = computed(() => sidebarStore.collapse && window.innerWidth < 768);
+const visible = computed(
+  () => sidebarStore.collapse && window.innerWidth < 768
+);
 
 const onClose = () => {
   sidebarStore.setCollapse(false);
