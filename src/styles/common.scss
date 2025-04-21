@@ -1,0 +1,12 @@
+/* 自定义滚动条的整体样式 */
+::-webkit-scrollbar {
+  width: 6px; /* 垂直滚动条宽度 */
+  height: 8px; /* 水平滚动条高度 */
+}
+
+/* 滚动条的滑块样式 */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* 滑块颜色 */
+  border-radius: 10px;
+  border: 1px solid #f1f1f1; /* 滑块边框 */
+}
