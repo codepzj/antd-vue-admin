@@ -1,6 +1,5 @@
 export const useSystemStore = defineStore("system", () => {
   const spinning = ref(false);
-  const tip = ref("加载中...");
   const loading = ref(false);
 
   // 设置页面加载状态
@@ -15,7 +14,6 @@ export const useSystemStore = defineStore("system", () => {
 
   return {
     spinning,
-    tip,
     setSpinning,
     loading,
     setSkeleton,

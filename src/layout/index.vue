@@ -17,9 +17,6 @@
       <div class="h-[1px] bg-gray-200"></div>
       <a-layout class="my-4 ml-4 mr-0.5">
         <a-layout-content>
-          <!-- 标签页 -->
-          <tab></tab>
-          <!-- 主要内容,二级路由入口,高度超出时出现滚动条 -->
           <Main class="h-full overflow-y-hidden pr-4"></Main>
         </a-layout-content>
       </a-layout>
@@ -32,7 +29,6 @@
 <script setup lang="ts">
 import Sidebar from "./components/sidebar.vue";
 import SiderbarDrawer from "./components/siderbar-drawer.vue";
-import Tab from "./components/tab.vue";
 import Header from "./components/header.vue";
 import Main from "./components/main.vue";
 import { useSidebarStore } from "@/store/sidebar";

@@ -4,7 +4,7 @@
   >
     <a-card class="shadow-sm w-96">
       <div class="flex justify-center">
-        <img class="my-6 w-32" src="/logo.png" />
+        <img class="my-6 w-48" src="/logo.png" />
       </div>
       <a-form
         :model="LoginForm"

@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import { routes } from "@/router/router";
+import { routes } from "@/router/modules/router";
 import { useSidebarStore } from "@/store/sidebar";
 import type { ItemType } from "ant-design-vue";
 import type { RouteRecordRaw } from "vue-router";
